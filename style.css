@@ -77,6 +77,8 @@ header{
 }
 
 .sec{
+
+  
     position: relative;
     background: #936639;
     padding: 100px;
@@ -90,8 +92,21 @@ header{
 }
 
 .sec p{
+    margin-top: 2rem;
     font-size: 1em;
     color: #F5F5DC;
     font-weight: 300;
 
 }
+
+.about-me-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+
+}
+.about-me-container li{
+    color: #F5F5DC;
+    font-weight: 600;
+}
+
